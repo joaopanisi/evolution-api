@@ -1,6 +1,21 @@
+# VCS / meta
 .git
-*Dockerfile*
-*docker-compose*
-.env
+.gitmodules
+.github
+.DS_Store
+
+# Builds e deps
 node_modules
 dist
+
+# Docker / Compose
+Dockerfile*
+docker-compose*.yml
+
+# Dotenv local (use envs do painel)
+.env
+
+# Logs e cache
+npm-debug.log*
+yarn-error.log*
+.pnpm-store
